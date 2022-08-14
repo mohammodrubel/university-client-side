@@ -1,0 +1,34 @@
+.sliderContainer{
+    position: relative;
+}
+.singleSliderIMg{
+    display: block;
+    width: 100%;
+}
+.CourseContent{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(8, 8, 49, 0.781);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+    text-align: center;
+}
+.CourseContent > *{
+    transform: translateY(40px);
+    transition: transform 0.25s;
+}
+
+.CourseContent:hover{
+   opacity: 1;
+}
+.CourseContent:hover > *{
+    transform: translateY(0);
+ }

@@ -1,0 +1,26 @@
+.dashbord{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+.dashbordLink{
+    /* position: relative; */
+    background-color: rgb(9, 9, 51);
+}
+.allLink{
+    position: absolute;
+    top: 65;
+    left: 0;
+    transform: translateX(-100%);
+    transition: all 0.5s;
+    z-index: 999;
+    width: 250px;
+    padding: 10px;
+    height: auto;
+}
+.allLinkActive{
+    transform: translateX(0%);
+    left: 0;
+    background-color: rgb(9, 9, 51);
+    color: white;
+}

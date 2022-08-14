@@ -1,0 +1,18 @@
+.blog{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.811),rgba(0, 0, 0, 0.811)),url(../../img//blogbackground.jpg);
+    background-position: top;
+    padding: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.blogCard{
+    margin: 5px;
+    padding: 10px;
+    background-color: transparent;
+    color: white;
+    transition: 0.5s;
+}
+.blogCard:hover{
+    transform: scale(1.1);
+}
